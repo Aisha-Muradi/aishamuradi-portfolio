@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0" />
+  <title>Aisha Personal Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+  <link
+  href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap"
+  rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href = "style.css">
+</head>
+
+<body>
+  
+  <div class="logo-wrapper">
+    <span class="logo">Aisha Muradi</span>
+  </div>  
+    <header>  
+        <nav class="items">
+          <a href="#about-section">About</a>
+          <a href="#education-section">Education</a>
+          <a href="#my-projects">Project</a>
+          <a href="#research-section">Research</a>
+          <a href="#contact-section">Contact</a>
+        </nav>
+      </header>
+      <section id="intro">
+        <div class="intro-row">
+          <span class="hey">Welcome,</span>
+          <span class="aisha">I'm Aisha</span>
+        </div>
+        <p class="latte-scan">Software Engineer | Research Scientist | Latte Lover</p>
+        <canvas id="particle-bg"></canvas>
+      </section>
+      
+      <section id="about-section" class="about">
+        
+        <a href="#">About me</a>
+        <p>I’m passionate about engineering, intelligent data modeling, and applied machine learning with a focus on social impact.</p> 
+        <p>Currently, I’m pursuing a bachelor’s degree at Oberlin College, majoring in 3-2 Engineering and Computer Science, with a concentration in data science.</p> 
+        <p>As a full-stack developer, I’ve created AccessEd, a platform that expands education access for refugees, and BiteBalance, which promotes sustainability with a constant focus on making technology more equitable </p>
+        <p>In research, I used applied machine learning to support data-driven decision-making in public health</p>
+        <p> Outside work, I run on iced lattes, and the calm energy of horses</p>
+
+        <div class="about-image">
+          <div class="image-carousel">
+            <img src="Images/PIC.JPG" alt="portrait1" class="carousel-img active">
+            <img src="Images/image1.JPG" alt="portrait2" class="carousel-img">
+            <img src="Images/image2.JPG" alt="portrait3" class="carousel-img">
+          </div>
+        </div>
+      </section>
+      <div class="section-divider"></div>
+      <section id="education-section" class="education-layout">
+        <div class="edu-major">
+          <h1>Education</h1>
+          <h3>Bachelor's of Arts</h3>
+          <h3>Major: 3-2 Engineering & Computer Science</h3>
+          <h3>Expected Graduation: May 2027</h3>
+          <h5>GPA: 3.7</5>
+            <img src="/Images/image3.png"  class="oberlin-img">
+        </div>
+        <div class="edu-right">
+          <div class="edu-box campus-engagement">
+            <h4>Campus Engagement</h4>
+            <ul class="narrow-list">
+              <li>Girls Who Code College Loop (President)</li>
+              <li>Muslim Students Association (MSA) (Co‑Chair)</li>
+              <li>Program Board (Member)</li>
+            </ul>
+          </div>
+          <div class="edu-box fellowships">
+            <h4>Fellowships</h4>
+            <ul class="narrow-list">
+              <li>STRONG (Science and Technology Research Opportunities for a New Generation) Scholar</li>
+              <li>International Project for Peace Fellowship 2025 Recipient</li>
+            </ul>
+          </div>
+          <div class="edu-box relevant-coursework">
+            <h4>Relevant Coursework</h4>
+            <ul class="narrow-list">
+              <li>Data Structures</li>
+              <li>Algorithms</li>
+              <li>Programming Abstractions</li>
+              <li>Discrete Mathematics</li>
+              <li>Multivariable Calculus</li>
+              <li>Electricity, Magnetism and Thermodynamics</li>
+              <li>Mechanics and Relativity</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="section-divider"></div>
+      <section id="my-projects">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="project" id="accessed">
+            <div class="cover">
+              <div class="project-logo-accessed-logo">
+                <span class="logo accessed-logo-text">AccessEd</span>
+              </div>
+              <div>
+                <h3>AccessEd — Expanding Educational Opportunity</h3>
+                <p class="short-description">
+                  AccessEd is an educational platform for refugees facing barriers to education. The platform provides guidance, curated resources, and mentorship to help learners find academic opportunities—no matter where they are.
+                </p>
+              </div>
+            </div>
+            <button class="read-more-btn" data-project="accessed">Read More</button>
+            <div class="full-description hidden">
+              <p>
+                <strong>AccessEd</strong> is a platform that helps refugees overcome barriers to education. It brings together tools for discovering scholarships, connecting with mentors and accessing guidance </p>
+              </p>
+              <ul>
+                <li>Enables users to search and navigate scholarship opportunities with step‑by‑step support</li>
+                <li>Offers mentorship community built around shared experiences</li>
+                <li>Allows users to create profiles and save resources, articles, and personalized guidance</li>
+              </ul>
+            </div>
+          </div>
+          <div class="project" id="bitebalance">
+            <div class="cover">
+              <div class="project-logo-bitebalance-logo">
+                <span class="logo bitebalance-logo-text">BB</span>
+                <span class="bite"></span>
+              </div>
+              <div>
+                <h3>BiteBalance — Smart Sustainability Made Personal</h3>
+                <p class="short-description">
+                  BiteBalance transforms sustainability into a personal journey, with tailored meal suggestions based on user weight, activities, and goals—helping you eat well and reduce waste.
+                </p>
+              </div>
+            </div>
+            <button class="read-more-btn" data-project="bitebalance">Read More</button>
+            <div class="full-description hidden">
+              <p>
+                <strong>BiteBalance</strong> redefines personal sustainability by making everyday nutrition effortless and environmentally conscious. Leveraging precise, science-backed analyses, the platform personalizes meal portions, minimizes waste, and showcases your impact—making healthier, greener choices intuitive and rewarding.
+              </p>
+              <ul>
+                <li>Dynamic, personalized recommendations that adapt to your nutrition goals</li>
+                <li>Automatic tracking and analytics to measure food waste reduction</li>
+                <li>Interactive visuals and progress dashboards to keep motivation high</li>
+              </ul>              
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="section-divider"></div> 
+      <div  id="research-section" class="research">
+        <div class="research-title">Research</div>
+        <div class="research-overview-box">
+        <h2>Overview</h2>
+        <p>
+          This ongoing research focuses on developing predictive models to understand and forecast opioid overdose death rates across the United States. By analyzing large-scale public health datasets, the project aims to identify patterns, risk factors, and geographic trends to help inform resource allocation and public health policy decisions. The team leveraged publicly available datasets to develop six machine learning models, enabling more accurate predictions
+        </p>
+      </div>
+      <div class="tech-badges">
+        <span class="tech-badge">Python</span>
+        <span class="tech-badge">R</span>
+        <span class="tech-badge">TensorFlow</span>
+        <span class="tech-badge">PyTorch </span>
+        <span class="tech-badge">Scikit-learn</span>
+        <span class="tech-badge">Jupyter Notebooks </span>
+      </div>
+    </div>
+      <div class="timeline">
+        <div class="timeline-event">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Jan–May 2024</h3>
+            <ul>
+              <li>Conducted comprehensive literature review on opioid overdose death rate prediction, integrating key insights from public health studies.</li>
+              <li>Collaborated in developing an interactive R Shiny dashboard for dynamic visualization of county-level model results, supporting both internal analysis and public dissemination.</li>
+              <li>Presented research findings at the Oberlin Undergraduate Symposium.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-event">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>June–August 2024</h3>
+            <ul>
+              <li>Evaluated and optimized various neural network structures to enhance model accuracy.</li>
+              <li>Transitioned workflows from TensorFlow to PyTorch, enabling more flexible training pipelines and improved computational efficiency.</li>
+              <li>Tuned hyperparameters across six deep learning models, performed comparative analyses, and iteratively refined configurations using validation metrics.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-event">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>August–December 2024</h3>
+            <ul>
+              <li>Executed predictive models on county-, state-, and national-level datasets, ensuring generalizability across geographic scales.</li>
+              <li>Evaluated and visualized comparative results using multiple metrics in R to assess model accuracy, stability, and interpretability.</li>
+              <li>Integrated demographic and socioeconomic variables to improve overall prediction performance and relevance.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="section-divider"></div>
+      <section  id="contact-section" class="contact-section">
+        <button id="contact-modal-btn" class="contact-modal-btn">
+          Get In Touch
+        </button>
+        <div id="contact-modal" class="contact-modal-bg" style="display: none;">
+          <div class="contact-modal">
+            <button class="close-modal" id="close-modal" aria-label="Close popup">
+              &times;
+            </button>
+            <h2 class="modal-title">Contact Options</h2>
+            <div class="modal-options">
+
+              <a
+                href="https://www.linkedin.com/in/aisha-muradi/"
+                target="_blank" rel="noopener noreferrer"
+                class="modal-option linkedin-option"
+                aria-label="LinkedIn Profile"
+              >
+                <svg viewBox="0 0 32 32" class="modal-icon linkedin-svg" aria-hidden="true">
+                  <rect x="2" y="2" width="28" height="28" rx="6" fill="#0077B5"/>
+                  <path d="M10 24V13h3v11h-3ZM11.5 11.4a1.75 1.75 0 1 1 0-3.5 1.75 1.75 0 0 1 0 3.5ZM14 19v-6h3v.8a3.1 3.1 0 0 1 3-1.1c2.2 0 3 1.4 3 4V24h-3v-5c0-1.25-.45-2-1.5-2s-1.5.75-1.5 2v5h-3Z" fill="#fff"/>
+                </svg>
+                <span>LinkedIn Profile</span>
+              </a>
+        
+              <a
+                href="mailto:bmuradi@oberlin.edu"
+                
+                class="modal-option email-option"
+                aria-label="Email Me"
+              >
+             
+                <svg viewBox="0 0 32 32" class="modal-icon email-svg" aria-hidden="true">
+                  <rect x="2" y="2" width="28" height="28" rx="6" fill="#222"/>
+                  <path d="M8 10h16v12H8z" stroke="#95d0d0" stroke-width="2" fill="none"/>
+                  <path d="M8 10l8 7 8-7" stroke="#95d0d0" stroke-width="2" fill="none"/>
+                </svg>
+                <div class="plain-email">bmuradi@oberlin.edu</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <footer class="site-footer">
+        <div class="footer-inner">         
+          <div class="footer-links">
+          <a href="#about-section">About</a>
+          <span class="divider">·</span>
+          <a href="#education-section">Education</a>
+          <span class="divider">·</span>
+          <a href="#my-projects">Project</a>
+          <span class="divider">·</span>
+          <a href="#research-section">Research</a>
+          <span class="divider">·</span>
+          <a href="#contact-section">Contact</a>
+          </div>
+          <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/aisha-muradi/" target="_blank" aria-label="LinkedIn">
+              <svg viewBox="0 0 36 36" width="28" height="28"><circle cx="18" cy="18" r="17" fill="#95d0d0"/><path d="M12 15h3v9h-3zm1.5-4.7a1.7 1.7 0 1 1 .1 3.4 1.7 1.7 0 0 1-.1-3.4zM16 15h2.9v1.2a3 3 0 0 1 2.7-1.4c2.2 0 2.7 1.4 2.7 4v5.2h-3v-4.7c0-1.2-.4-1.9-1.3-1.9s-1.3.7-1.3 1.9v4.7H16z" fill="#222"/></svg>
+            </a>
+            <a href="mailto:bmuradi@oberlin.edu" aria-label="Email">
+              <svg viewBox="0 0 36 36" width="28" height="28"><circle cx="18" cy="18" r="17" fill="#23272e"/><path d="M9 13h18v10H9z" stroke="#95d0d0" stroke-width="2" fill="none"/><path d="M9 13l9 8 9-8" stroke="#95d0d0" stroke-width="2" fill="none"/></svg>
+            </a>
+          </div>
+          <div class="footer-credit">
+            © 2025 Aisha Muradi &middot; All rights reserved
+          </div>
+        </div>
+      </footer>      
+
+  <script src="script.js"></script>
+</body>
+</html>
